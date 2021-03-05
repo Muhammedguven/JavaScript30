@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Pad</title>
+  </head>
+  <body>
+    <div class="container">
+    <div class="pad">
+      <div id="BoxA">
+        <span>A</span>
+        <p>Clap</p>
+      </div>
+      <div id="BoxS">
+        <span>S</span>
+        <p>Hi Hat</p>
+      </div>
+      <div id="BoxD">
+        <span>D</span>
+        <p>Kick</p>
+      </div>
+      <div id="BoxF">
+        <span>F</span>
+        <p>Open Hat</p>
+      </div>
+      <div id="BoxG">
+        <span>G</span>
+        <p>Crash</p>
+      </div>
+      <div id="BoxH">
+        <span>H</span>
+        <p>Ride</p>
+      </div>
+    </div>
+  </div>
+    <audio id="A" src="./sounds/clap.wav" class="kit"></audio>
+    <audio id="S" src="./sounds/hihat.mp3" class="kit"></audio>
+    <audio id="D" src="./sounds/kick.wav" class="kit"></audio>
+    <audio id="F" src="./sounds/hihatopen.mp3" class="kit"></audio>
+    <audio id="G" src="./sounds/crash.mp3" class="kit"></audio>
+    <audio id="H" src="./sounds/ride.mp3" class="kit"></audio>
+  </body>
+  <script src="function.js"></script>
+</html>
